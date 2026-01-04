@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+    font-family: Arial;
+}
+h1{
+    color: rgb(194, 16, 16);
+    display:inline-block;
+    font-size: 46px;
+    letter-spacing: 2px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: inline-block;
+}
+li{
+    text-decoration: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    font-size: 16px;
+    margin-left:80px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+a:hover{
+    color: rgb(14, 126, 14);
+}
+button{
+    width: 77px;
+    height: 27px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(231, 67, 7);
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+button:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.breif{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.info{
+    color: white;
+    margin-top:0;
+    margin-bottom: 0;
+    padding-left: 13px;
+    display: inline-block;
+}
+.sub-heading{
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: rgb(231, 67, 7);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h3{
+    font-size: 32px;
+    letter-spacing: 2px;
+    margin-top: 0;
+    margin-bottom: 7px;
+}
+.name{
+    color: rgb(194, 16, 16);
+    font-size: 36px;
+}
+.reference{
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.developer{
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: rgb(211, 66, 13);
+}
+.review{
+    letter-spacing: 3px;
+    font-size: 15px;
+    margin-top: 7px;
+}
+.image-container{
+    display: inline-block;
+    margin-left: 100px;
+    align-items: end;
+    margin-top: 50px;
+}
+.solo-image{
+    margin-left: 80px;
+    width: 300px;
+    height: 265px;
+    border-radius: 122.5px;
+    border: 2px solid white;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+.solo-image:hover{
+    left: 57px;
+}
